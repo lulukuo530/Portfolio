@@ -1500,4 +1500,10 @@ input[type="text"] {
   .col-md-3 {
     width: 35%;
   }
+  .col-md-offset-cv {
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
