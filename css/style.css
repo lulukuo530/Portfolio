@@ -1507,3 +1507,27 @@ input[type="text"] {
     padding-right: 15px;
   }
 }
+
+
+
+.gallerywork {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 270px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .gallerywork {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .gallerywork {
+    height: 270px;
+  }
+}
